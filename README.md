@@ -45,3 +45,51 @@ Ensure you have a modern web browser installed.
 1. Clone the repo:
    ```sh
    git clone https://github.com/Dagmawi-Tsegaye/Tridal-Architecture.git
+
+2. Open the index.html file in your preferred web browser.
+
+## Project Structure
+
+├── index.html
+├── about.html
+├── services.html
+├── projects.html
+├── contact.html
+├── styles.css
+└── images
+    ├── Home
+    ├── About
+    ├── Services
+    └── Projects
+
+
+- **index.html**: The homepage of the website.
+- **about.html**: The about page containing information about the firm.
+- **services.html**: The services page detailing the services offered.
+- **projects.html**: The projects page showcasing various projects.
+- **contact.html**: The contact page with a form to get in touch.
+- **styles.css**: The stylesheet for the website.
+- **images**: Directory containing all the images used in the website.
+
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+## Contact
+
+Your Name - [Dagmawi.tsegaye.16@gmail.com](mailto:Dagmawi.tsegaye.16@gmail.com)
+
+Project Link: [https://github.com/yourusername/Tridal-architecture](https://github.com/Dagmawi-Tsegaye/Tridal-architecture)
+
