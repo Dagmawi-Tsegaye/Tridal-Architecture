@@ -9,8 +9,6 @@ Welcome to the official repository for the Tridal Architectural Firm website. Th
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## About the Project
@@ -50,19 +48,6 @@ Ensure you have a modern web browser installed.
 
 ## Project Structure
 
-├── index.html
-├── about.html
-├── services.html
-├── projects.html
-├── contact.html
-├── styles.css
-└── images
-    ├── Home
-    ├── About
-    ├── Services
-    └── Projects
-
-
 - **index.html**: The homepage of the website.
 - **about.html**: The about page containing information about the firm.
 - **services.html**: The services page detailing the services offered.
@@ -72,24 +57,10 @@ Ensure you have a modern web browser installed.
 - **images**: Directory containing all the images used in the website.
 
 
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
 
 ## Contact
 
 Your Name - [Dagmawi.tsegaye.16@gmail.com](mailto:Dagmawi.tsegaye.16@gmail.com)
 
-Project Link: [https://github.com/yourusername/Tridal-architecture](https://github.com/Dagmawi-Tsegaye/Tridal-architecture)
+Project Link: [https://github.com/Dagmawi-Tsegaye/Tridal-architecture](https://github.com/Dagmawi-Tsegaye/Tridal-architecture)
 
