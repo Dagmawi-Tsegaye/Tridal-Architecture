@@ -7,8 +7,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
     </head>
-    <header>
-        <nav>
+  <header>
+        <a href="index.html" class="header-logo">Tridal Architecture</a>
+        <nav id="main-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -17,7 +18,56 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+        <button id="hamburger-btn" aria-label="Open navigation menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
     </header>
+    <body>
+        <script>
+        // Hamburger menu logic
+        const hamburgerBtn = document.getElementById('hamburger-btn');
+        const mainNav = document.getElementById('main-nav');
+
+        hamburgerBtn.addEventListener('click', () => {
+            mainNav.classList.toggle('is-active');
+            hamburgerBtn.classList.toggle('is-active');
+        });
+
+        // Your existing form validation script for contact.html
+        function validateForm() {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var phone = document.getElementById('phone').value;
+            var subject = document.getElementById('subject').value;
+            var message = document.getElementById('message').value;
+
+            if (name === "") {
+                alert("Name must be filled out");
+                return false;
+            }
+            var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailPattern.test(email) || !email.includes('.com')) {
+                alert("Please enter a valid email address");
+                return false;
+            }
+            var phonePattern = /^(?:\+2519\d{8}|09\d{8}|9\d{8}|011\d{7})$/;
+            if (phone !== "" && !phonePattern.test(phone)) {
+                alert("Please enter a valid Ethiopian phone number (e.g., +251921345678, 0923678977, 987654567, 0115768765)");
+                return false;
+            }
+            if (subject === "") {
+                alert("Subject must be filled out");
+                return false;
+            }
+            if (message.length < 20) {
+                alert("Message must be at least 20 characters long");
+                return false;
+            }
+            return true;
+        }
+    </script>
 
     <body>
         <div class="contact-hero">
